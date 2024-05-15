@@ -3,6 +3,26 @@
     font-weight: 400;
     font-style: normal;
   }
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-family: "Material Icons", sans-serif;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.home-button {
+  text-align: left;
+}
+.material-text-button {
+  text-decoration: none;
+}
 html {
   background-color: black;
 }  
@@ -18,7 +38,7 @@ body {
     background-size: cover; /* Ensures the image covers the entire container */
     background-attachment: fixed; /*Make the background not scroll with the rest of the page*/
     background-repeat: no-repeat; /*Do not repeat the image to fill the screen*/
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     line-height: 1.5;
     color: white;
@@ -30,5 +50,20 @@ a {
 
 .inline-link {
     display: inline;
+    text-decoration: underline;
   }
 
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change this to your desired background color */
+    color: white; /* Change this to your desired text color */
+    padding: 20px 20px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.body-container{
+  padding-top: 70px;
+}
